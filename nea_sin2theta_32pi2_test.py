@@ -16,8 +16,8 @@ delta = Delta / (4.0 * pi)
 s_theo = R - delta
 
 # 3. 实验值 (PDG 2022/2023, MS-bar scheme at M_Z)
-# 有效温伯格角 sin^2(theta_eff) ≈ 0.23122
-s_exp = 0.23122 
+# 注意：此处使用 MS-bar 方案的 sin^2(theta_W)，不是有效轻子混合角。
+s_exp = 0.23122
 
 # 4. 计算绝对残差
 residual = s_exp - s_theo
